@@ -40,7 +40,6 @@ Please follow the instructions from [Workflow](docs/Workflow.md)
 
 ## Authors and acknowledgment
 Key contributor:
-- Kate
 - Yuyang
 - Kaijie
 - Yifan
