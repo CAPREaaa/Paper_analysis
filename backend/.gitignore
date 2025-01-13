@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+
+# enviroment files, containing seed for jwt and sensitive information
+/*.env
+nul
+venv
+**.pyc
+**.pdf
+src/utils/file_process/out
+src/utils/file_process/papers
+src/controller/__pycache__
+src/entities/__pycache__
+src/models/__pycache__

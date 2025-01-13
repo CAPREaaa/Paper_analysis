@@ -1,0 +1,8 @@
+FROM debian:12.5-slim
+RUN apt update
+RUN apt install -y python3.11-full python3-pip=23.0.1+dfsg-1 iputils-ping default-jre
+RUN mkdir /venv
+RUN python3.11 -m venv /venv
+WORKDIR /workspace
+COPY ./requirements.txt /workspace/
+RUN /venv/bin/python -m pip install -r requirements.txt
